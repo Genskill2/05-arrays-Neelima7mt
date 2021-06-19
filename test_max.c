@@ -2,17 +2,17 @@
 #include <assert.h>
 
 
-int max(int [], int);
-{ int arr[i], n:
-for(int i=0; i<n;i++) 
+int max(int arr[], int n);
 { 
-  for(int j=0; j<i;j++)
-  {
-  if ( arr[j]<arr[j+1])
-    return arr[j+1];
-    else
-      return arr[j];
-  } }}
+  int i,t;
+ t=x[0];
+ for(i=0; i<n;i++) 
+{ 
+   if (x[i]>t)
+      t=x[i];
+      return t;
+      } }
+  
   
 int main(void) {
   int x[] = {9,5,6,10,2,-3,4};
