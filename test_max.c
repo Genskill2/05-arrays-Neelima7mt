@@ -10,8 +10,9 @@ int max(int arr[], int n);
 { 
    if (x[i]>t)
       t=x[i];
+ }
       return t;
-      } }
+      } 
   
   
 int main(void) {
