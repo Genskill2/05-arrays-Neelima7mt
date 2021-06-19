@@ -3,7 +3,17 @@
 
 
 int max(int [], int);
-
+{ int arr[i], i:
+for(int i=0; i<n;i++) 
+{ 
+  for(int j=0; j<i;j++)
+  {
+  if ( arr[j]<arr[j+1])
+    return arr[j+1];
+    else
+      return arr[j];
+  } }}
+  
 int main(void) {
   int x[] = {9,5,6,10,2,-3,4};
   assert (max(x, 7) == 10);
