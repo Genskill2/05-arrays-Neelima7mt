@@ -5,11 +5,11 @@
 int max(int arr[], int n);
 { 
   int i,t;
- t=x[0];
+ t=arr[0];
  for(i=0; i<n;i++) 
 { 
-   if (x[i]>t)
-      t=x[i];
+   if (arr[i]>t)
+      t=arr[i];
  }
       return t;
       } 
